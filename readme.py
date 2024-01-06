@@ -80,16 +80,16 @@ sudo -i
 ```
 
 sudo -i
-15.uname -r
-16.cd /boot/
+uname -r
+cd /boot/
 ls
-17.mkdir backup_cfg
-18.ls -alh
-19.mv *5.11.0-1026-gcp* ./backup_cfg/
-19.mv *5.17.8-eve-ng-uksm-wg+* ./backup_cfg/
-20.sed -i -e 's/GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT="net.ifnames=0 noquiet"/' /etc/default/grub
-21.update-grub
-22.shutdown -r n
+mkdir backup_cfg
+ls -alh
+mv *5.11.0-1026-gcp* ./backup_cfg/
+mv *5.17.8-eve-ng-uksm-wg+* ./backup_cfg/
+sed -i -e 's/GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT="net.ifnames=0 noquiet"/' /etc/default/grub
+update-grub
+shutdown -r n
 
 sudo -i
 
