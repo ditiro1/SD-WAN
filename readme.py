@@ -1,3 +1,5 @@
+# Cisco IOU License Generator. Originally found at http://www.routingloops.co.uk/cisco/gns3-v1-1-install-on-ubuntu-14-04-lts/, I have done a few changes to it for python3. Make the file executable with " chmod +x ciscoIOUkeygen.py " and execute it " ./ciscoIOUkeygen.py ".
+
 # Cisco SD-WAN_eve-ng
 
 ## Overview
