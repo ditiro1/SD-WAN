@@ -1,5 +1,3 @@
-# Cisco IOU License Generator. Originally found at http://www.routingloops.co.uk/cisco/gns3-v1-1-install-on-ubuntu-14-04-lts/, I have done a few changes to it for python3. Make the file executable with " chmod +x ciscoIOUkeygen.py " and execute it " ./ciscoIOUkeygen.py ".
-
 #!/usr/bin/python3
 print("\n*********************************************************************")
 print("Cisco IOU License Generator - Kal 2011, python port of 2006 C version")
