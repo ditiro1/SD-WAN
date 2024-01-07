@@ -99,9 +99,9 @@ sudo -i
 git clone https://github.com/ditiro1/SD-WAN.git
 * git clone or copy the shell script to eve-ng 
 Go the folder with shell script and execute: 
-bash eveng-init-setup.sh <bucket-name> 
+bash eveng-init-setup.sh <bucket-name> or 
 ```
-You could also make the script executeable - `chmod +x eveng-init-setup.sh` and run as `./eveng-init-setup.sh <bucket-name>`
+ make the script executeable - `chmod +x eveng-init-setup.sh` and run as `./eveng-init-setup.sh <bucket-name>`
 
 cd /root
 ls
